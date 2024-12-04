@@ -1,1 +1,7 @@
-# lab_06_sorts
+# Lab 06: Sorts
+
+**Name:**
+
+**Period:**
+
+**Email:**
