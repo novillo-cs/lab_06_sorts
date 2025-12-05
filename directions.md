@@ -1,6 +1,6 @@
 ## Directions:
 
-* Create a file Sorts.java. You must implement the 3 sorting algortihms that we learned in classs. Please do not change the method signatures:
+* In Sorts.java. You must implement the 3 sorting algortihms that we learned in classs. Please do not change the method signatures:
 
 ```
   public static void bubbleSort(int[] data) { }
