@@ -1,4 +1,4 @@
-## Directions:
+## Directions
 
 * In Sorts.java. You must implement the 3 sorting algortihms that we learned in classs. Please do not change the method signatures:
 
@@ -11,8 +11,15 @@
 ```
   
 
-* In Driver.java, you must randomly generate an array that will be sent as an argument when you call the sorting methods. If you want to reuse the same random array for all sorting algoritms you must generate copies of your array (Arrays.copyOf() or Objects.clone()).
+* In Driver.java, you must generate random arrays that will be passed as arguments to your sorting methods. Write the method:
 
+`public static int[] getRandomArray(int size) { }`
+
+This method should create and return an integer array of the specified size, filled with random values.
+Use Math.random() or the Random class to generate the numbers.
+
+* If you want to reuse the same random array for all sorting algoritms you must generate copies of your array (Arrays.copyOf() or Objects.clone()).
+  
 * Do not use ArrayList.
   
 * The methods in Sorts.java should be static and void.
